@@ -12,6 +12,7 @@ import { ReactComponent as VisibilityIcon } from '../assets/svg/visibility.svg';
 import { ReactComponent as ArrowBtn } from '../assets/svg/arrowbtn.svg';
 import '../css/Sign.css';
 import { toast } from 'react-toastify';
+import OAuth from '../components/OAuth';
 
 function SignUp() {
   const [formData, setFormData] = useState({
@@ -109,6 +110,8 @@ function SignUp() {
             </button>
           </div>
         </form>
+
+        <OAuth />
 
         <div className='alternate-option-container'>
           <p>Already have an account?</p>

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 
+import OAuth from '../components/OAuth';
 import { ReactComponent as VisibilityIcon } from '../assets/svg/visibility.svg';
 import { ReactComponent as ArrowBtn } from '../assets/svg/arrowbtn.svg';
 import '../css/Sign.css';
@@ -93,6 +94,8 @@ function SignIn() {
             </button>
           </div>
         </form>
+
+        <OAuth />
 
         <div className='alternate-option-container'>
           <p>Don't have an account?</p>
