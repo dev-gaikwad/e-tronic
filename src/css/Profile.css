@@ -1,0 +1,17 @@
+.profile {
+  margin-bottom: 10rem;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-btn {
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: var(--light-background-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+}
